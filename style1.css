@@ -1,0 +1,50 @@
+header {
+  background-image: linear-gradient(white 99%, #848484);
+  min-height: 150px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.head .titre {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 2.5em;
+  margin-top: 3.5em;
+}
+
+.logo {
+  margin-top: 0.5em;
+}
+
+.barre {
+  display: flex;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+}
+.barre button {
+  margin-left: 0.25em;
+}
+
+.card {
+  margin-bottom: 2em;
+}
+
+.article {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+}
+main .breadcrumb {
+  background-color: white !important;
+}
+
+/*# sourceMappingURL=style.css.map */
