@@ -45,6 +45,10 @@ main {
 }
 main .breadcrumb {
   background-color: white !important;
+  border-radius: 0;
+}
+main #carouselExampleIndicators {
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
