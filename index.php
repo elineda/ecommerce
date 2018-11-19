@@ -89,7 +89,7 @@
 <div class="container article">
   <div class="row">
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
@@ -101,7 +101,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
@@ -113,7 +113,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
@@ -125,7 +125,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
@@ -137,7 +137,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
@@ -149,7 +149,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-3 colonne">
+    <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
