@@ -38,23 +38,50 @@
           <span class="line -bottom"></span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Banque de sang</a>
+      <li class="portfolio-experiment">
+      <!--  <a class="nav-link" href="#">Banque de sang</a>-->
+      <a>
+        <span class="text">Banque de sang</span>
+        <span class="line -right"></span>
+        <span class="line -top"></span>
+        <span class="line -left"></span>
+        <span class="line -bottom"></span>
+      </a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Vetements
+      <li class="portfolio-experiment">
+        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+        <a>
+          <span class="text">Vetements</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Femme</a>
           <a class="dropdown-item" href="#">Homme</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Librairie</a>
+      <li class="portfolio-experiment">
+        <!--<a class="nav-link " href="#">Librairie</a>-->
+        <a>
+          <span class="text">Librairie</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">Contact</a>
+      <li class="portfolio-experiment">
+        <!--<a class="nav-link " href="#">Contact</a>-->
+        <a>
+          <span class="text">Contact</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
       </li>
           </ul>
     <form class="form-inline my-2 my-lg-0">
