@@ -28,7 +28,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="portfolio-experiment">
         <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
         <a>
           <span class="text">Aceuil</span>
@@ -68,7 +68,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">Home</li>
       </ol>
-<!-- caroussel-->
+<!-- caroussel
 <br
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -95,8 +95,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-<!--liiste article-->
+</div> liiste article-->
 <div class="container article">
   <div class="row">
     <!-- carte-->
