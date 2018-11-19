@@ -1,6 +1,22 @@
 *{
   margin:0;
 }
+header{
+  background-color: #ba0b0b !important;
+  background-image: linear-gradient(white 99%, #848484);
+  min-height: 150px;
+  box-shadow: 3px 3px 3px black;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.barre{
+  display: flex;
+}
+.bg-light{
+}
 
 .card{
 

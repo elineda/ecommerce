@@ -4,17 +4,20 @@
   <head>
     <meta charset="utf-8">
     <title>Design Tech Académie</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="http://51.75.126.53/jquery/jquery-ui.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="head"><div class="logo"></div>
-      <div class="titre"></div>
-      <div class="barre">
-        <div>Inscription</div>
-        <div>Panier</div>
+      <div class="head">
+        <div class="titre">Titre</div>
+      <div class="logo">
+
+        <img src="logo.png"></img></div>
+            <div class="barre">
+        <button type="button" class="btn btn-outline-dark">Inscription</button>
+        <button type="button" class="btn btn-outline-dark">Panier</button>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,7 +50,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
@@ -165,6 +168,21 @@
 
 
     </main>
+
+    <!--footer-->
+    <footer>
+      <div class="container foot">
+        <div class="row">
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        copy
+      </div>
+    </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://51.75.126.53/jquery/jquery-ui.js"></script>
