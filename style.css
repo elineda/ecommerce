@@ -43,5 +43,8 @@ header {
 main {
   margin: 0 auto;
 }
+main .breadcrumb {
+  background-color: white !important;
+}
 
 /*# sourceMappingURL=style.css.map */
