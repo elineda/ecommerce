@@ -6,6 +6,7 @@
     <title>Design Tech Académie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="boutton.css" />
   </head>
   <body>
     <header>
@@ -28,7 +29,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+        <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
+        <a>
+          <span class="text">Aceuil</span>
+          <span class="line -right"></span>
+          <span class="line -top"></span>
+          <span class="line -left"></span>
+          <span class="line -bottom"></span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Banque de sang</a>
