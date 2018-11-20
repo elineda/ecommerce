@@ -63,17 +63,25 @@
 </div>
 
     <header>
-      <div class="head">
-        <div class="titre">La vampy Bat</div>
-      <div class="logo">
-
-        <img src="logo.png"></img></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="titre">La vampy Bat</div>
+          </div>
+          <div class="col-lg-4">
+            <img src="logo.png"></img>
+          </div>
+          <div class="col-lg-4">
             <div class="barre">
         <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#insciption">Inscription</button>
         <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#connexion">Connexion</button>
         <button type="button" class="btn btn-outline-dark">Panier</button>
       </div>
-    </div>
+          </div>
+        </div>
+
+      </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -179,7 +187,7 @@
 <div class="container article">
   <div class="row">
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
         <div class="card-body">
@@ -192,7 +200,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
         <div class="card-body">
@@ -204,7 +212,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="livre.jpg?" alt="Card image cap">
         <div class="card-body">
@@ -217,7 +225,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="necromonticon.jpg" alt="Card image cap">
         <div class="card-body">
@@ -230,7 +238,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="chat.jpg" alt="Card image cap">
         <div class="card-body">
@@ -243,7 +251,7 @@
     </div>
     <!-- fin-->
     <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
+    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="robe.jpg" alt="Card image cap">
         <div class="card-body">

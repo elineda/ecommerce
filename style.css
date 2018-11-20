@@ -8,12 +8,7 @@ header {
   background-color: white !important;
 }
 
-.head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.head .titre {
+.titre {
   text-transform: uppercase;
   text-shadow: 1px 1px 1px black;
   font-size: 28px;
@@ -30,6 +25,7 @@ header {
   display: flex;
   margin-top: 0.5em;
   margin-right: 0.5em;
+  justify-content: flex-end;
 }
 .barre button {
   margin-left: 0.25em;

@@ -8,10 +8,7 @@ header{
 .bg-light{
   background-color: white !important;
 }
-.head{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+
   .titre{
     text-transform: uppercase;
     text-shadow: 1px 1px 1px black;
@@ -20,7 +17,6 @@ header{
     margin-left: 2.5em;
     margin-top: 3.5em;
   }
-}
 .logo{
   margin-top: 0.5em;
 }
@@ -28,6 +24,7 @@ header{
   display: flex;
   margin-top: 0.5em;
   margin-right: 0.5em;
+  justify-content: flex-end;
   button{
     margin-left: 0.25em;
   }

@@ -99,7 +99,7 @@
 
       <!--Panier-->
       <h1> Vampy Panier</h1>
-<br
+<br>
       <div class="container">
         <div class="row">
 
