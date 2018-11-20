@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Design Tech Académie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="boutton.css" />
   </head>
   <body>
@@ -130,70 +130,74 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">1 litre O Négatif</h5>
+          <h5 class="card-title">1 litre O-</h5>
           <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
+        </div>
+          <a href="#" class="btn btn-dark">Acheter</a>
+
+      </div>
+    </div>
+    <!-- fin-->
+    <!-- carte-->
+    <div class="col-lg-4 col-auto colonne">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">1 litre AB+</h5>
+          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
+          </div>
           <a href="#" class="btn btn-dark">Acheter</a>
         </div>
+    </div>
+    <!-- fin-->
+    <!-- carte-->
+    <div class="col-lg-4 col-auto colonne">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="livre.jpg?" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">L'Histoire</h5>
+          <p class="card-text">L'histoire glorieuse de notre race. Le livre contient les 4 000 dernières années. Pour plus loin, nous vous conseillons nos autres tomes.</p>
+          </div>
+          <a href="#" class="btn btn-dark">Acheter</a>
+
       </div>
     </div>
     <!-- fin-->
     <!-- carte-->
     <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="necromonticon.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+          <h5 class="card-title">Le necronomicon</h5>
+          <p class="card-text">Invoquer tout et surtout n'importe quoi. Amusement garanti. Nous rappelons à notre chère clientèle que l'invocation de grands anciens est interdite par l'Autorité.</p>
+          </div>
+          <a href="#" class="btn btn-dark">Acheter</a>
+
       </div>
     </div>
     <!-- fin-->
     <!-- carte-->
     <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="chat.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+          <h5 class="card-title">Ailes de chauve souris</h5>
+          <p class="card-text">Votre compagnon preferé à aussi besoin de voler. Nous vous porposons de lui offrir des ailes. Celà lui permettra de chasser les oiseaux dans les airs.</p>
+          </div>
+          <a href="#" class="btn btn-dark">Acheter</a>
+
       </div>
     </div>
     <!-- fin-->
     <!-- carte-->
     <div class="col-lg-4 col-auto colonne">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="robe.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Robe Rouge</h5>
+          <p class="card-text">Soyez la reine de la nuit avec cette robe en soie rouge. Fabriquée en France. Nombreuses tailles disponibles.</p>
         </div>
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+          <a href="#" class="btn btn-dark">Acheter</a>
       </div>
     </div>
     <!-- fin-->
@@ -208,13 +212,18 @@
       <div class="container foot">
         <div class="row">
           <div class="col-lg-6">
+            Facebook et Twitter
           </div>
           <div class="col-lg-6">
+            <ul>
+              <li>Condition d'utilisation</li>
+              <li>Livraison</li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="copy">
-        copy
+        Copyright. Site appartenant à l'Autorité.
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

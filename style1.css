@@ -53,4 +53,7 @@ main .breadcrumb {
   box-shadow: 1px 1px 12px #B7B5B5;
 
 }
+.bg-light {
+  background-color: white !important;
+}
 /*# sourceMappingURL=style.css.map */

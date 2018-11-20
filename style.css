@@ -4,6 +4,10 @@ header {
   box-shadow: 3px 3px 3px black;
 }
 
+.bg-light {
+  background-color: white !important;
+}
+
 .head {
   display: flex;
   justify-content: space-between;
@@ -33,6 +37,11 @@ header {
 
 .card {
   margin-bottom: 2em;
+  box-shadow: 1px 1px 12px #B7B5B5;
+  height: 550px;
+}
+.card .btn {
+  margin-top: auto;
 }
 
 .article {
@@ -42,13 +51,38 @@ header {
 
 main {
   margin: 0 auto;
+  background-color: black;
+  text-decoration: white;
 }
 main .breadcrumb {
   background-color: white !important;
+  background-image: linear-gradient(white, black);
   border-radius: 0;
+  color: white;
 }
 main #carouselExampleIndicators {
   margin-bottom: 50px;
+}
+
+.breadcrumb-item.active {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 200px;
+}
+footer .foot {
+  padding-top: 50px;
+}
+footer .copy {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card-img-top {
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
