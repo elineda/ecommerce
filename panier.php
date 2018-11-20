@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="boutton.css" />
+    <link rel="stylesheet" href="panier.css"/>
   </head>
   <body>
 
@@ -184,20 +185,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div> liiste article-->
-<div class="container article">
-  <div class="row">
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">1 litre O-</h5>
-          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
-        </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
 
       <!--Panier-->
       <h1> Vampy Panier</h1>
@@ -258,11 +245,18 @@
                 </div>
             </div>
         </div>
+  <br
 
-
-
-
+        <div class="card">
+          <h5 class="card-header">Total</h5>
+          <div class="card-body">
+            <h5 class="card-title">Vous devez 4 vampy $</h5>
+            <p class="card-text">La vampy carte est axcepeter, les vampy cheque n'ai pas ascepter.</p>
+            <a href="#" class="btn btn-dark">Vampy Paye</a>
+          </div>
+      </div>
   </main>
+  <br
     <!--footer-->
     <footer>
       <div class="container foot">
