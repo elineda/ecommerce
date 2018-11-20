@@ -103,7 +103,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm ">
+          <div class="col-lg-4 ">
             <div class="card" style="width: 18rem;">
               <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
               <div class="card-body">
@@ -112,7 +112,7 @@
             </div>
           </div>
 
-          <div class="col-sm">
+          <div class="col-lg-4">
             <div class="buttonHolder">
               <a href="#" class="button tick"></a>
               <span>1</span>
@@ -120,8 +120,8 @@
             </div>
           </div>
 
-          <div class="col-sm">
-            <button type="Suprimer" class="btn btn-light">Suprimer</button>
+          <div class="col-lg-4">
+            <button type="Suprimer" class="btn btn-light" class="supprimer">Suprimer</button>
           </div>
         </div>
       </div>

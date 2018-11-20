@@ -83,88 +83,96 @@
   </div>
 </div>
 
-    <header>
-      <div class="head">
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
         <div class="titre">La vampy Bat</div>
-      <div class="logo">
-
-        <img src="logo.png"></img></div>
-            <div class="barre">
-        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#insciption">Inscription</button>
-        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#connexion">Connexion</button>
-        <button type="button" class="btn btn-outline-dark">Panier</button>
+      </div>
+      <div class="col-lg-4">
+        <img src="logo.png"></img>
+      </div>
+      <div class="col-lg-4">
+        <div class="barre">
+    <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#insciption">Inscription</button>
+    <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#connexion">Connexion</button>
+    <button type="button" class="btn btn-outline-dark">Panier</button>
+  </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="portfolio-experiment">
-        <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
-        <a>
-          <span class="text">Accueil</span>
-          <span class="line -right"></span>
-          <span class="line -top"></span>
-          <span class="line -left"></span>
-          <span class="line -bottom"></span>
-        </a>
-      </li>
-      <li class="portfolio-experiment">
-      <!--  <a class="nav-link" href="#">Banque de sang</a>-->
-      <a>
-        <span class="text">Banque de sang</span>
-        <span class="line -right"></span>
-        <span class="line -top"></span>
-        <span class="line -left"></span>
-        <span class="line -bottom"></span>
-      </a>
-      </li>
-      <li class="portfolio-experiment">
-        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-        <a>
-          <span class="text">Vetements</span>
-          <span class="line -right"></span>
-          <span class="line -top"></span>
-          <span class="line -left"></span>
-          <span class="line -bottom"></span>
-        </a>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Femme</a>
-          <a class="dropdown-item" href="#">Homme</a>
-        </div>
-      </li>
-      <li class="portfolio-experiment">
-        <!--<a class="nav-link " href="#">Librairie</a>-->
-        <a>
-          <span class="text">Librairie</span>
-          <span class="line -right"></span>
-          <span class="line -top"></span>
-          <span class="line -left"></span>
-          <span class="line -bottom"></span>
-        </a>
-      </li>
-      <li class="portfolio-experiment">
-        <!--<a class="nav-link " href="#">Contact</a>-->
-        <a>
-          <span class="text">Contact</span>
-          <span class="line -right"></span>
-          <span class="line -top"></span>
-          <span class="line -left"></span>
-          <span class="line -bottom"></span>
-        </a>
-      </li>
-          </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+  <li class="portfolio-experiment">
+    <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
+    <a>
+      <span class="text">Accueil</span>
+      <span class="line -right"></span>
+      <span class="line -top"></span>
+      <span class="line -left"></span>
+      <span class="line -bottom"></span>
+    </a>
+  </li>
+  <li class="portfolio-experiment">
+  <!--  <a class="nav-link" href="#">Banque de sang</a>-->
+  <a>
+    <span class="text">Banque de sang</span>
+    <span class="line -right"></span>
+    <span class="line -top"></span>
+    <span class="line -left"></span>
+    <span class="line -bottom"></span>
+  </a>
+  </li>
+  <li class="portfolio-experiment">
+    <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <a>
+      <span class="text">Vetements</span>
+      <span class="line -right"></span>
+      <span class="line -top"></span>
+      <span class="line -left"></span>
+      <span class="line -bottom"></span>
+    </a>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="#">Femme</a>
+      <a class="dropdown-item" href="#">Homme</a>
+    </div>
+  </li>
+  <li class="portfolio-experiment">
+    <!--<a class="nav-link " href="#">Librairie</a>-->
+    <a>
+      <span class="text">Librairie</span>
+      <span class="line -right"></span>
+      <span class="line -top"></span>
+      <span class="line -left"></span>
+      <span class="line -bottom"></span>
+    </a>
+  </li>
+  <li class="portfolio-experiment">
+    <!--<a class="nav-link " href="#">Contact</a>-->
+    <a>
+      <span class="text">Contact</span>
+      <span class="line -right"></span>
+      <span class="line -top"></span>
+      <span class="line -left"></span>
+      <span class="line -bottom"></span>
+    </a>
+  </li>
+      </ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+</form>
+</div>
 </nav>
-    </header>
+</header>
     <main>
       <ol class="breadcrumb">
         <li class="breadcrumb-item" aria-current="page">Home</li>
@@ -176,10 +184,10 @@
     <div class="col-12 tprod">
       Un litre de Sang O-
     </div>
-    <div class="col-4">
+    <div class="col-lg-4 col-md-4">
       <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
     </div>
-    <div class="col-7 xprod">
+    <div class="col-lg-7 col-md-7 xprod">
       <h5>7.5€</h5>
       <p>Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité.
       Nous rappelons que personne n'est mort durant le prelevement et que le sang d'un seul humain est présent dans la bouteille. Sang non cloné.</p>
