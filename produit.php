@@ -62,6 +62,27 @@
   </div>
 </div>
 
+<!-- Modal commentaires -->
+<div class="modal fade" id="commentaires" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Commentaire</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Victor</h5>
+        <p>Un produit de bonne qualité. Presque aussi bien qu'un prelevé à la gorge. Je recommande.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <header>
       <div class="head">
         <div class="titre">La vampy Bat</div>
@@ -146,117 +167,28 @@
     </header>
     <main>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Home</li>
+        <li class="breadcrumb-item" aria-current="page">Home</li>
+        <li class="breadcrumb-item" aria-current="page">Banque de sang</li>
+        <li class="breadcrumb-item active" aria-current="page">1 litre O-</li>
       </ol>
-<!-- caroussel
-<br
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> liiste article-->
-<div class="container article">
+<div class="container produit">
   <div class="row">
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">1 litre O-</h5>
-          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
-        </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
+    <div class="col-12 tprod">
+      Un litre de Sang O-
     </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">1 litre AB+</h5>
-          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-        </div>
+    <div class="col-4">
+      <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
     </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="livre.jpg?" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">L'Histoire</h5>
-          <p class="card-text">L'histoire glorieuse de notre race. Le livre contient les 4 000 dernières années. Pour plus loin, nous vous conseillons nos autres tomes.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
+    <div class="col-7 xprod">
+      <h5>7.5€</h5>
+      <p>Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité.
+      Nous rappelons que personne n'est mort durant le prelevement et que le sang d'un seul humain est présent dans la bouteille. Sang non cloné.</p>
+      <input id="achat" type="number" class="form-control" placeholder="Quantité" aria-label="Username" aria-describedby="basic-addon1">
+      <br><div class="bprod"><button type="button" class="btn btn-dark">Acheter</button>
+      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#commentaires">Commentaires</button></div>
     </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="necromonticon.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Le necronomicon</h5>
-          <p class="card-text">Invoquer tout et surtout n'importe quoi. Amusement garanti. Nous rappelons à notre chère clientèle que l'invocation de grands anciens est interdite par l'Autorité.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="chat.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Ailes de chauve souris</h5>
-          <p class="card-text">Votre compagnon preferé à aussi besoin de voler. Nous vous porposons de lui offrir des ailes. Celà lui permettra de chasser les oiseaux dans les airs.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-auto colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="robe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Robe Rouge</h5>
-          <p class="card-text">Soyez la reine de la nuit avec cette robe en soie rouge. Fabriquée en France. Nombreuses tailles disponibles.</p>
-        </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-      </div>
-    </div>
-    <!-- fin-->
   </div>
 </div>
-
 
     </main>
 

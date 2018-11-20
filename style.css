@@ -68,6 +68,10 @@ main #carouselExampleIndicators {
   color: white;
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white !important;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -83,6 +87,29 @@ footer .copy {
 
 .card-img-top {
   height: 300px;
+}
+
+#achat {
+  width: auto;
+}
+
+.produit {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 1px 3px 11px #B7B5B5;
+}
+.produit .tprod {
+  text-transform: uppercase;
+  color: #690004;
+  font-weight: bold;
+  font-size: 16px;
+}
+.produit .xprod .bprod {
+  display: flex;
+}
+.produit .xprod .bprod button:first-child {
+  margin-right: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

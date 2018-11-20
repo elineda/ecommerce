@@ -69,6 +69,9 @@ main{
 .breadcrumb-item.active{
   color:white;
 }
+.breadcrumb-item + .breadcrumb-item::before{
+  color: white !important;
+}
 footer{
   background-color: black;
   color:white;
@@ -83,4 +86,28 @@ footer{
 }
 .card-img-top{
   height: 300px;
+}
+#achat{
+  width: auto;
+}
+.produit{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow:1px 3px 11px #B7B5B5;
+  .tprod{
+    text-transform: uppercase;
+    color: #690004;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .xprod{
+    .bprod{
+      display: flex;
+      button:first-child{
+        margin-right: 2em;
+      }
+    }
+  }
+
 }
