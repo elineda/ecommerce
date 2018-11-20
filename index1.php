@@ -11,7 +11,7 @@
   <body>
     <header>
       <div class="head">
-        <div class="titre">L'antre</div>
+        <div class="titre">La vampy Bat</div>
       <div class="logo">
 
         <img src="logo.png"></img></div>
