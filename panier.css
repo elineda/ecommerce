@@ -90,10 +90,10 @@ h1{
     margin-left: auto;
   }
   .buttonHolder{
-    margin: 50px;
     position: relative;
     top: 190px; left: 190px;
   }
 .supprimer{
-
+  position: relative;
+  top: 290px; left: 290px;
 }

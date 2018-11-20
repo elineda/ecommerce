@@ -99,40 +99,73 @@
 
       <!--Panier-->
       <h1> Vampy Panier</h1>
-<br>
-      <div class="container">
-        <div class="row">
 
-          <div class="col-sm ">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text"></p>
+      <br>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-4 ">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="buttonHolder">
+                    <a href="#" class="button tick"></a>
+                    <a href="#" class="button cross"></a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <button type="Suprimer" class="btn btn-light supprimer">Supprimer</button>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-sm">
-            <div class="buttonHolder">
-              <a href="#" class="button tick"></a>
-              <span>1</span>
-              <a href="#" class="button cross"></a>
-            </div>
-          </div>
-
-          <div class="col-sm">
-            <button type="Suprimer" class="btn btn-light">Suprimer</button>
-          </div>
-        </div>
-      </div>
 
 
 
 
 
+                  <br>
+                        <div class="container">
+                          <div class="row">
 
-    </main>
+                            <div class="col-lg-4 ">
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="livre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
+                                  <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
 
+                            <div class="col-lg-4">
+                              <div class="buttonHolder">
+                                <a href="#" class="button tick"></a>
+                                <a href="#" class="button cross"></a>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                              <button type="Suprimer" class="btn btn-light supprimer">Supprimer</button>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+  </main>
     <!--footer-->
     <footer>
       <div class="container foot">
