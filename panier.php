@@ -194,7 +194,7 @@
               <div class="row">
 
                 <div class="col-lg-4 ">
-                  <div class="card" style="width: 18rem;">
+                  <div class="card mt-4" style="width: 18rem;">
                     <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
                     <div class="card-body">
                       <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
@@ -222,7 +222,7 @@
           <div class="container">
               <div class="row">
                 <div class="col-lg-4 ">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mt-4" style="width: 18rem;">
                     <img class="card-img-top" src="livre.jpg" alt="Card image cap">
                     <div class="card-body">
                       <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
@@ -245,20 +245,21 @@
                 </div>
             </div>
         </div>
-  <br
-
-        <div class="card">
-          <h5 class="card-header">Total</h5>
-          <div class="card-body">
+<br>
+    <div class="container">
+      <div id="contour" class="card bg-white">
+          <h5 class="card-header bg-white">Total</h5>
+          <div class="card-body bg-white">
             <h5 class="card-title">Vous devez 4 vampy $</h5>
-            <p class="card-text">La vampy carte est axcepeter, les vampy cheque n'ai pas ascepter.</p>
+            <p class="card-text">La vampy carte est acepeter, les vampy cheque n'ai pas ascepter.</p>
             <a href="#" class="btn btn-dark">Vampy Paye</a>
           </div>
       </div>
+    </div>
   </main>
-  <br
+<br>
     <!--footer-->
-    <footer>
+    <footer >
       <div class="container foot">
         <div class="row">
           <div class="col-lg-6">

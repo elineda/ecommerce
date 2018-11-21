@@ -95,8 +95,19 @@ h1{
   }
 .supprimer{
   position: relative;
-  top: 290px; left: 290px;
+  top: 290px; left:200px;
 }
-.card{
-  
+h5{
+  margin-left: 48px;
+  margin-right: 48px;
+  text-align: center;
+}
+.container{
+  box-shadow: 1px 1px 12px #B7B5B5;
+  margin-top: 2px;
+  margin-bottom: 2px
+}
+.contour{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
