@@ -194,7 +194,7 @@
           <h5 class="card-title">1 litre O-</h5>
           <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
         </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
+          <a href="http://51.75.126.53/ecommerce/produit.php" class="btn btn-dark">Acheter</a>
 
       </div>
     </div>

@@ -71,6 +71,7 @@ main{
 }
 footer{
   background-color: black;
+  background-image: linear-gradient(#B7B5B5 15px, black 85%, #690004);
   color:white;
   min-height: 200px;
   .foot{
@@ -97,6 +98,13 @@ footer{
     color: #690004;
     font-weight: bold;
     font-size: 16px;
+  }
+  .iprod{
+    width: 288px;
+    img{
+      width: 288px;
+      border-radius: 15px;
+    }
   }
   .xprod{
     .bprod{

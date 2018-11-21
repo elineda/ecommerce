@@ -184,7 +184,7 @@
     <div class="col-12 tprod">
       Un litre de Sang O-
     </div>
-    <div class="col-lg-4 col-md-4">
+    <div class="col-lg-4 col-md-4 iprod">
       <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
     </div>
     <div class="col-lg-7 col-md-7 xprod">

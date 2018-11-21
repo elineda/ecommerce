@@ -92,7 +92,7 @@
     <ul class="navbar-nav mr-auto">
       <li class="portfolio-experiment">
         <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
-        <a>
+        <a href="http://51.75.126.53/ecommerce/index1.php">
           <span class="text">Accueil</span>
           <span class="line -right"></span>
           <span class="line -top"></span>
@@ -187,7 +187,89 @@
 </div> liiste article-->
 
       <!--Panier-->
-      <h1> Vampy Panier</h1>
+<div class="container">
+  <div class="row panier">
+    <div class="col-lg-12 ptitre">
+      <h1>Vampy Panier</h1>
+    </div>
+
+    <div class="col-lg-12 pacrticle">
+      <div class="row">
+        <div class="col-lg-12 patitre">
+          Un litre de sang O-
+        </div>
+        <div class="col-lg-4 col-md-4 paimg">
+          <img  src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
+        </div>
+        <div class="col-lg-4 col-md-4 paquant">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              Quantité : 12
+            </div>
+            <div class="col-lg-4 col-md-4">
+              Prix unité : 7.5€
+            </div>
+            <div class="col-lg-4 col-md-4">
+              Prix total : 90€
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 pasup">
+          <div class="buttonHolder">
+            <a href="#" class="button cross"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 pacrticle">
+      <div class="row">
+        <div class="col-lg-12 patitre">
+          L'Histoire
+        </div>
+        <div class="col-lg-4 col-md-4 paimg">
+          <img  src="livre.jpg" alt="Card image cap">
+        </div>
+        <div class="col-lg-4 col-md-4 paquant">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              Quantité : 1
+            </div>
+            <div class="col-lg-4 col-md-4">
+              Prix unité : 30€
+            </div>
+            <div class="col-lg-4 col-md-4">
+              Prix total : 30€
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 pasup">
+          <div class="buttonHolder">
+            <a href="#" class="button cross"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-12 pacrticle ptotal">
+      <div class="row">
+        <div class="col-lg-4 patitre">
+          Total de votre commande :
+        </div>
+        <div class="col-lg-4 col-md-4 paimg">
+          Prix total : 120 €
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <a href="#" class="btn btn-dark">Continuer votre commande</a>
+
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+    <!--  <h1> Vampy Panier</h1>
 
       <br>
             <div class="container">
@@ -246,8 +328,8 @@
             </div>
         </div>
 <br>
-    <div class="container">
-      <div id="contour" class="card bg-white">
+    <div class="container total">
+      <div id="contour">
           <h5 class="card-header bg-white">Total</h5>
           <div class="card-body bg-white">
             <h5 class="card-title">Vous devez 4 vampy $</h5>
@@ -257,7 +339,7 @@
       </div>
     </div>
   </main>
-<br>
+<br>-->
     <!--footer-->
     <footer >
       <div class="container foot">
