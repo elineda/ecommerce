@@ -96,7 +96,7 @@
         <div class="barre">
     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#insciption">Inscription</button>
     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#connexion">Connexion</button>
-    <button type="button" class="btn btn-outline-dark">Panier</button>
+    <a class="btn btn-outline-dark" href="http://51.75.126.53/ecommerce/panier.php" role="button">Panier</a>
   </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
 <ul class="navbar-nav mr-auto">
   <li class="portfolio-experiment">
     <!--<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>-->
-    <a>
+    <a href="http://51.75.126.53/ecommerce/index1.php">
       <span class="text">Accueil</span>
       <span class="line -right"></span>
       <span class="line -top"></span>
