@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="boutton.css" />
     <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+    <link href="stylesheet" href="css_footer"/>
   </head>
   <body>
 
