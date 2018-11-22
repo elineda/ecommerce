@@ -197,7 +197,12 @@
       <input id="achat" type="number" class="form-control" placeholder="Quantité" aria-label="Username" aria-describedby="basic-addon1">
       <br><div class="bprod"><button type="button" class="btn btn-dark">Acheter</button>
       <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#commentaires">Commentaires</button></div>
+      <br>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-dark" role="progressbar" style="width: 70%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> Disponibilité</div>
+</div>
     </div>
+
   </div>
 </div>
 
