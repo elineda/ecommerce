@@ -3,10 +3,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Design Tech Académie</title>
+    <title>Vampy Bat</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="boutton.css" />
+    <link rel="stylesheet" href="panier.css"/>
   </head>
   <body>
 
@@ -157,7 +160,7 @@
   </li>
   <li class="portfolio-experiment">
     <!--<a class="nav-link " href="#">Contact</a>-->
-    <a>
+    <a href="http://51.75.126.53/ecommerce/index1.php">
       <span class="text">Contact</span>
       <span class="line -right"></span>
       <span class="line -top"></span>
@@ -202,15 +205,28 @@
 
     <!--footer-->
     <footer>
+      <div class="fooot"></div>
       <div class="container foot">
         <div class="row">
           <div class="col-lg-6">
-            Facebook et Twitter
+            <h5>Suivez nous !</h5>
+              <ul class="cont">
+                <li class="one-button">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </li>
+                <li class="one-button">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </li>
+                <li class="one-button">
+                  <i class="fa fa-youtube fa-2x"></i>
+                </li>
+              </ul>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 cond">
             <ul>
-              <li>Condition d'utilisation</li>
-              <li>Livraison</li>
+              <li><a href="#">Condition d'utilisation<a></li>
+              <li><a href="#">Livraison</a></li>
+              <li><a href="#">La charte</a></li>
             </ul>
           </div>
         </div>

@@ -3,8 +3,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Design Tech Académie</title>
+    <title>Vampy Bat</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="boutton.css" />
     <link rel="stylesheet" href="panier.css"/>
@@ -76,7 +80,7 @@
             <div class="barre">
         <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#insciption">Inscription</button>
         <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#connexion">Connexion</button>
-        <button type="button" class="btn btn-outline-dark">Panier</button>
+        <a class="btn btn-outline-dark" href="http://51.75.126.53/ecommerce/panier.php" role="button">Panier</a>
       </div>
           </div>
         </div>
@@ -137,7 +141,7 @@
       </li>
       <li class="portfolio-experiment">
         <!--<a class="nav-link " href="#">Contact</a>-->
-        <a>
+        <a href="http://51.75.126.53/ecommerce/index1.php">
           <span class="text">Contact</span>
           <span class="line -right"></span>
           <span class="line -top"></span>
@@ -155,36 +159,9 @@
     </header>
     <main>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Home</li>
+        <li class="breadcrumb-item" aria-current="page">Home</li>
+        <li class="breadcrumb-item active" aria-current="page">Panier</li>
       </ol>
-<!-- caroussel
-<br
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> liiste article-->
 
       <!--Panier-->
 <div class="container">
@@ -269,88 +246,32 @@
   </div>
 
 </div>
-    <!--  <h1> Vampy Panier</h1>
 
-      <br>
-            <div class="container">
-              <div class="row">
-
-                <div class="col-lg-4 ">
-                  <div class="card mt-4" style="width: 18rem;">
-                    <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <div class="buttonHolder">
-                    <a href="#" class="button tick"></a>
-                    <a href="#" class="button cross"></a>
-                  </div>
-                </div>
-
-                <div class="col-lg-4">
-                  <button type="Suprimer" class="btn btn-light supprimer">Supprimer</button>
-                </div>
-              </div>
-            </div>
-
-  <br>
-          <div class="container">
-              <div class="row">
-                <div class="col-lg-4 ">
-                    <div class="card mt-4" style="width: 18rem;">
-                    <img class="card-img-top" src="livre.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text"> Bien verifier avant de mettre dans le panier qu'il reste du sang en boutique sinon bien faire votre commande !</p>
-                    <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="buttonHolder">
-                    <a href="#" class="button tick"></a>
-                    <a href="#" class="button cross"></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <button type="Suprimer" class="btn btn-light supprimer">Supprimer</button>
-                </div>
-            </div>
-        </div>
-<br>
-    <div class="container total">
-      <div id="contour">
-          <h5 class="card-header bg-white">Total</h5>
-          <div class="card-body bg-white">
-            <h5 class="card-title">Vous devez 4 vampy $</h5>
-            <p class="card-text">La vampy carte est acepeter, les vampy cheque n'ai pas ascepter.</p>
-            <a href="#" class="btn btn-dark">Vampy Paye</a>
-          </div>
-      </div>
-    </div>
-  </main>
-<br>-->
     <!--footer-->
-    <footer >
+    </main>
+    <footer>
+      <div class="fooot"></div>
       <div class="container foot">
         <div class="row">
           <div class="col-lg-6">
-            Facebook et Twitter
+            <h5>Suivez nous !</h5>
+              <ul class="cont">
+                <li class="one-button">
+                  <i class="fa fa-twitter fa-2x"></i>
+                </li>
+                <li class="one-button">
+                  <i class="fa fa-facebook fa-2x"></i>
+                </li>
+                <li class="one-button">
+                  <i class="fa fa-youtube fa-2x"></i>
+                </li>
+              </ul>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 cond">
             <ul>
-              <li>Condition d'utilisation</li>
-              <li>Livraison</li>
+              <li><a href="#">Condition d'utilisation<a></li>
+              <li><a href="#">Livraison</a></li>
+              <li><a href="#">La charte</a></li>
             </ul>
           </div>
         </div>

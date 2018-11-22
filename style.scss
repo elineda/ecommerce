@@ -53,6 +53,7 @@ main{
   margin: 0  auto;
   background-color: black;
   text-decoration: white;
+  padding-bottom: 2em;
   .breadcrumb{
     background-color: white !important;
     background-image: linear-gradient(white,black);
@@ -71,22 +72,96 @@ main{
 }
 footer{
   background-color: black;
-  background-image: linear-gradient(#B7B5B5 15px, black 85%, #690004);
+  background-image: linear-gradient( black 85%, #690004);
   color:white;
   min-height: 200px;
   .foot{
     padding-top: 50px;
+    h5{
+      margin-left:30%;
+    }
+    .cont{
+      list-style: none;
+      display: flex;
+    }
+
+    .one-button {
+      cursor: pointer;
+      color: #fff;
+      position: relative;
+      z-index: 99999;
+      top: 15px;
+      left: 15px;
+      margin-left: 55px;
+
+    }
+    .one-button:hover i{
+      color: #690004;
+
+    }
+    .one-button:active{
+      top: 17px;
+      transition: 0.1s;
+    }
+    .one-button i{
+      color: #fff;
+      position: relative;;
+      z-index: 99999;
+      top: 15px;
+      left: 16px;
+    }
+    .cond{
+      li{
+        margin-bottom: 0.85em;
+        color: white;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 15px;
+        a{
+          color: inherit;
+          text-decoration: none;
+        }
+        a:hover{
+          color:#690004;
+        }
+      }
+    }
   }
   .copy{
     text-align: center;
     margin-top: 100px;
   }
+  .fooot{
+    width: 100%;
+    background-image: linear-gradient(black,#B7B5B5, black);
+    height: 10px;
+  }
+
+}
+footer::before{
+
+  content: ""
+
 }
 .card-img-top{
   height: 300px;
 }
 #achat{
   width: auto;
+}
+.contact{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow:1px 3px 11px #B7B5B5;
+  .form-group{
+    color:#690004;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  button{
+    text-align: center;
+  }
 }
 .produit{
   background-color: white;

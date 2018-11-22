@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Design Tech Académie</title>
+    <title>Vampy Bat</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -157,121 +157,34 @@
     </header>
     <main>
       <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">Home</li>
+        <li class="breadcrumb-item" aria-current="page">Home</li>
+        <li class="breadcrumb-item active" aria-current="page">Contact</li>
       </ol>
-<!-- caroussel
-<br
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
-    </div>
+<!-- formulaire de contact -->
+
+<div class="container contact">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nom</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> liiste article-->
-<div class="container article">
-  <div class="row">
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">1 litre O-</h5>
-          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
-        </div>
-          <a href="http://51.75.126.53/ecommerce/produit.php" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://medias.expertissim.com/media/cache/media_zoom/uploads/object/2015/03/16/12237184/3000x3000_55363ba1dae02.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">1 litre AB+</h5>
-          <p class="card-text">Toutes nos bouteilles sont prelevées sur des humains en bonne santé et sont certifiées par l'Autorité</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-        </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="livre.jpg?" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">L'Histoire</h5>
-          <p class="card-text">L'histoire glorieuse de notre race. Le livre contient les 4 000 dernières années. Pour plus loin, nous vous conseillons nos autres tomes.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="necromonticon.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Le necronomicon</h5>
-          <p class="card-text">Invoquer tout et surtout n'importe quoi. Amusement garanti. Nous rappelons à notre chère clientèle que l'invocation de grands anciens est interdite par l'Autorité.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="chat.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Ailes de chauve souris</h5>
-          <p class="card-text">Votre compagnon preferé à aussi besoin de voler. Nous vous porposons de lui offrir des ailes. Celà lui permettra de chasser les oiseaux dans les airs.</p>
-          </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-
-      </div>
-    </div>
-    <!-- fin-->
-    <!-- carte-->
-    <div class="col-lg-4 col-md-6 col-sm-12 colonne colonne">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="robe.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Robe Rouge</h5>
-          <p class="card-text">Soyez la reine de la nuit avec cette robe en soie rouge. Fabriquée en France. Nombreuses tailles disponibles.</p>
-        </div>
-          <a href="#" class="btn btn-dark">Acheter</a>
-      </div>
-    </div>
-    <!-- fin-->
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Mail</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="exemple@truc.com">
   </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Sujet</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Sujet">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Votre Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Laissez nous votre message."></textarea>
+  </div>
+<button type="button" class="btn btn-dark">Envoyez</button>
+
 </div>
 
-
-    </main>
-
     <!--footer-->
+    </main>
     <footer>
       <div class="fooot"></div>
       <div class="container foot">
